@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
         }
 
         .elements {
-          @apply absolute md:top-0 md:bottom-auto bottom-10 w-full;
+          @apply absolute bottom-[20%] left-1/2 w-[140%] max-w-none -translate-x-1/2;
         }
 
         h1 {
@@ -169,7 +169,7 @@ body::-webkit-scrollbar {
     }
 
     .nutrition-text-scroll {
-      @apply rotate-[-3deg] border-[.5vw] border-[#e3d3bc] text-nowrap opacity-0 md:-mt-32 -mt-24;
+      @apply rotate-[-3deg] border-[.5vw] border-[#e3d3bc] text-nowrap opacity-50 md:-mt-8 -mt-4;
     }
 
     .nutrition-box {
